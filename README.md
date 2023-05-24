@@ -24,7 +24,7 @@ pnpm test
 
 - Every project tests are run in the same process and the results are outputed as a whole in a single report.
 
-![Jest report](http://url/to/img.png)
+![Jest report](jest_report.PNG)
 
 ### Setup
 
