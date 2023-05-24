@@ -22,7 +22,7 @@ pnpm test
 
 - For every monorepo project, the root config is merged with the project's own Jest config. With this setup, configuration fields like `transform` can be kept code per project instead of configuring a generic global `transform` config in the root file.
 
-- Every projects tests are run in the same process and report as a whole.
+- Every project tests are run in the same process and the results are outputed as a whole in a single report.
 
 ### Setup
 
