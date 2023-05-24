@@ -1,0 +1,10 @@
+{
+    "extends": "@workleap/typescript-configs/web-application",
+    "compilerOptions": {
+        "paths": {
+            "library-1": ["../library-1/src/index.ts"],
+            "library-2": ["../library-2/src/index.ts"]
+        }
+    },
+    "exclude": ["dist", "node_modules"]
+}

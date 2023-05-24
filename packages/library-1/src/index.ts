@@ -1,0 +1,1 @@
+export * from "./LoremIpsum.tsx";
