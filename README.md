@@ -24,6 +24,8 @@ pnpm test
 
 - Every project tests are run in the same process and the results are outputed as a whole in a single report.
 
+![Jest report](http://url/to/img.png)
+
 ### Setup
 
 - For Jest [projects](https://jestjs.io/docs/configuration#projects-arraystring--projectconfig) to work with a PNPM setup, Jest must also be installed at the root.
