@@ -16,7 +16,7 @@ pnpm test
 
 ## Learning
 
-- Jest [https://jestjs.io/docs/configuration#projects-arraystring--projectconfig](projecys) works pretty well for a monorepo setup.
+- Jest [projects](https://jestjs.io/docs/configuration#projects-arraystring--projectconfig) works pretty well for a monorepo setup.
 
 - The command can be executed at the root and the root Jest's config file is used.
 
