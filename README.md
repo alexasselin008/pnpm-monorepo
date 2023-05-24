@@ -20,7 +20,7 @@ pnpm test
 
 - The command can be executed at the root and the root Jest's config file is used.
 
-- For every monorepo project, the root config is merged with the project's own Jest config. This allow for example to keep code transformer per project instead of using a generic global transform config.
+- For every monorepo project, the root config is merged with the project's own Jest config. With this setup, configuration fields like `transform` can be kept code per project instead of configuring a generic global `transform` config in the root file.
 
 - Every projects tests are run in the same process and report as a whole.
 
