@@ -14,7 +14,7 @@
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
-    "@workleap/typescript-configs": "2.1.0",
+    "@workleap/typescript-configs": "2.3.0",
     "jest": "29.5.0",
     "ts-node": "10.9.1",
     "typescript": "5.0.3"
