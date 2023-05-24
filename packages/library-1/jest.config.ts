@@ -7,7 +7,7 @@ const config: Config = {
         "^.+\\.(js|ts|tsx)$": ["@swc/jest", swcConfig as Record<string, unknown>]
     },
     moduleNameMapper: {
-        "library-2(.*)$": "../../../packages/library-2/src/$1"
+        "library-2(.*)$": "<rootDir>/../library-2/src/$1"
     },
 };
 
