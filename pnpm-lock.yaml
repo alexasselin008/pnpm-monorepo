@@ -1,12 +1,16 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
     devDependencies:
       '@workleap/typescript-configs':
-        specifier: 2.3.0
-        version: 2.3.0
+        specifier: 3.0.2
+        version: 3.0.2(typescript@5.0.3)
       jest:
         specifier: 29.5.0
         version: 29.5.0(@types/node@20.2.3)(ts-node@10.9.1)
@@ -51,8 +55,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0
       '@workleap/typescript-configs':
-        specifier: 2.3.0
-        version: 2.3.0
+        specifier: 3.0.2
+        version: 3.0.2(typescript@5.0.3)
       jest:
         specifier: 29.5.0
         version: 29.5.0(@types/node@20.2.3)(ts-node@10.9.1)
@@ -100,8 +104,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0
       '@workleap/typescript-configs':
-        specifier: 2.3.0
-        version: 2.3.0
+        specifier: 3.0.2
+        version: 3.0.2(typescript@5.0.3)
       jest:
         specifier: 29.5.0
         version: 29.5.0(@types/node@20.2.3)(ts-node@10.9.1)
@@ -130,8 +134,8 @@ importers:
         specifier: 29.5.1
         version: 29.5.1
       '@workleap/typescript-configs':
-        specifier: 2.3.0
-        version: 2.3.0
+        specifier: 3.0.2
+        version: 3.0.2(typescript@5.0.3)
       jest:
         specifier: 29.5.0
         version: 29.5.0(@types/node@20.2.3)(ts-node@10.9.1)
@@ -1109,8 +1113,12 @@ packages:
       '@types/yargs-parser': 21.0.0
     dev: true
 
-  /@workleap/typescript-configs@2.3.0:
-    resolution: {integrity: sha512-lVRY3h/eIDqNzOOUhu4Nip8HbHYJYKdzECzy7JBi9YFvypvEX56QWwJosio7SKMbtKJnvPEEzGBPbZYpicxjwA==}
+  /@workleap/typescript-configs@3.0.2(typescript@5.0.3):
+    resolution: {integrity: sha512-H2FE1RoOcjYUhzMjpMm48qE7xf015nJBBYTwGH+t7VXzDcJBFcwU2jXztLG6ibMW+wIe0nI06MFOdjMLE099+Q==}
+    peerDependencies:
+      typescript: '*'
+    dependencies:
+      typescript: 5.0.3
     dev: true
 
   /abab@2.0.6:
