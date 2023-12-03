@@ -6,6 +6,24 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "main": "src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts",
+            "require": "./dist/index.js"
+        }
+    }
+  },
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
